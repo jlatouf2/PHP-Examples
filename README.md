@@ -1,6 +1,8 @@
 # PHP-Examples
 
 Steps Needed to start websites:
+
+
 1) Add database name, username, password, host:
 DEFINE ('DB_USER', '');
 DEFINE ('DB_PASSWORD', '');
