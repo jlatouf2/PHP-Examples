@@ -11,8 +11,7 @@ DEFINE ('DB_NAME', '');
 
 2) Add table to database [see below]
 
--- Table structure for table `users` FOR COBALT WEBSITE:
---
+Table structure for table `users` FOR COBALT WEBSITE:
 
 CREATE TABLE `users` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
