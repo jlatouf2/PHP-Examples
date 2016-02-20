@@ -11,6 +11,20 @@ DEFINE ('DB_NAME', '');
 
 2) Add table to database [see below]
 
+ Table structure for table `users` FOR Woodworking website:
+
+CREATE TABLE `users` (
+  `user_id` mediumint(6) unsigned NOT NULL AUTO_INCREMENT,
+  `fname` varchar(30) NOT NULL,
+  `lname` varchar(40) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `psword` char(40) NOT NULL,
+  `registration_date` datetime NOT NULL,
+  `user_level` tinyint(1) unsigned NOT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+
+
 Table structure for table `users` FOR COBALT WEBSITE:
 
 CREATE TABLE `users` (
