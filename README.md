@@ -1,5 +1,14 @@
 # PHP-Examples
 
+Steps Needed to start websites:
+1) Add database name, username, password, host:
+DEFINE ('DB_USER', '');
+DEFINE ('DB_PASSWORD', '');
+DEFINE ('DB_HOST', '');
+DEFINE ('DB_NAME', '');
+
+2) Add table to database [see below]
+
 -- Table structure for table `users` FOR COBALT WEBSITE:
 --
 
